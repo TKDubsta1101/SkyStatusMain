@@ -12,7 +12,7 @@ affected:
   - RP Dev Server
   - MC Server 1
   - MC Dev Server
-severity: down
+severity: notice
 ---
 
 These servers are still under development and are not open to the public.
