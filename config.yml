@@ -121,14 +121,14 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
+    - name: Sky Network
+      description: All global services for the Sky Network.
     - name: Sky Network Flight Simulator
       description: All related services for Sky Network Flight Simulator are located here.
-      closed: true   
     - name: Sky Network MC
       description: All related services for Sky Network Minecraft Server are located here.
-      closed: true  
-    - name: Uncategorized
-      untitled: true
+  #  - name: Uncategorized
+  #    untitled: true
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -136,6 +136,9 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
+    - name: Website
+      description: The main website
+      category: Sky Network
     - name: FM Server 1
       description: This is the main FS Server
       category: Sky Network Flight Simulator
@@ -151,9 +154,6 @@ params:
     - name: MC Dev Server
       description: This is the Development MC Server
       category: Sky Network MC
-    - name: Website
-      description: The main website
-      category: Uncategorized
 
   # What date format to use?
   #
