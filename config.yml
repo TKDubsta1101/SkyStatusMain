@@ -121,10 +121,12 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: East Coast      
+    - name: Sky Network Flight Simulator
+      description: All related services for Sky Network Flight Simulator are located here.
+      closed: true   
+    - name: Sky Network MC
+      description: All related services for Sky Network Minecraft Server are located here.
+      closed: true  
     - name: Uncategorized
       untitled: true
 
@@ -134,15 +136,23 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: East Coast
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+    - name: FM Server 1
+      description: This is the main FS Server
+      category: Sky Network Flight Simulator
+    - name: FM Server 2
+      description: This is the secondary FS Server
+      category: Sky Network Flight Simulator
+    - name: FM Dev Server
+      description: This is the development FS Server
+      category: Sky Network Flight Simulator
+    - name: MC Server 1
+      description: This is the Main MC Server
+      category: Sky Network MC
+    - name: MC Dev Server
+      description: This is the Development MC Server
+      category: Sky Network MC
+    - name: Website
+      description: The main website
       category: Uncategorized
 
   # What date format to use?

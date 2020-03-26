@@ -1,12 +1,12 @@
 ---
-title: New Pipeline Rollout
+title: Status Release
 date: 2019-10-05 16:24:00
-resolved: false
+resolved: true
 resolvedWhen: 2019-10-05 16:58:00
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 affected:
-  - API
+  - FM Dev Server
 section: issue
 ---
 
