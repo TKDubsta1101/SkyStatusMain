@@ -72,7 +72,7 @@ params:
     - name: Sky Network
       description: All global services for the Sky Network.
     - name: Discord Bots
-      closed: true
+      closed: false
       untited: false
       description: The Sky Network Discord Bots
     - name: Sky Network Flight Simulator
