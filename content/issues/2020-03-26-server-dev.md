@@ -1,5 +1,5 @@
 ---
-title: MC Dev
+title: Server Dev
 date: 2020-03-26 12:52:00
 resolved: false
 resolvedWhen: 2019-10-05 16:58:00
@@ -15,4 +15,4 @@ affected:
 section: issue
 ---
 
-Under Development
+These servers are still under development and are not open to the public.
