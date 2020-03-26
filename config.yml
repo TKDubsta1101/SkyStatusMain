@@ -125,6 +125,8 @@ params:
       description: All global services for the Sky Network.
     - name: Sky Network Flight Simulator
       description: All related services for Sky Network Flight Simulator are located here.
+    - name: Sky Network County RP
+      description: All related services for Sky Network County RP are located here.
     - name: Sky Network MC
       description: All related services for Sky Network Minecraft Server are located here.
   #  - name: Uncategorized
@@ -139,6 +141,15 @@ params:
     - name: Website
       description: The main website
       category: Sky Network
+    - name: Status Page
+      description: Status Page
+      category: Sky Network
+    - name: DNS Server 1
+      description: Allows you to use play.skyfs.net because we know you cant be bothered to copy and paste some numbers.
+      category: Sky Network
+    - name: DNS Server 2
+      description: Backup DNS Servers
+      category: Sky Network
     - name: FM Server 1
       description: This is the main FS Server
       category: Sky Network Flight Simulator
@@ -148,6 +159,15 @@ params:
     - name: FM Dev Server
       description: This is the development FS Server
       category: Sky Network Flight Simulator
+    - name: RP Server 1
+      description: This is the main County RP Server
+      category: Sky Network County RP
+    - name: RP Server 2
+      description: This is the secondary County RP Server
+      category: Sky Network County RP
+    - name: RP Dev Server
+      description: This is the development County RP Server
+      category: Sky Network County RP
     - name: MC Server 1
       description: This is the Main MC Server
       category: Sky Network MC
