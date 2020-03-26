@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: SKY Network Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -90,7 +90,7 @@ defaultContentLanguage: en
 # localhost should automatically work.
 #
 # Example: https://status.example.com/
-baseURL: https://cstate.mnts.lt
+baseURL: https://status.skyfs.net
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -161,7 +161,7 @@ params:
   #
   # Default: true
   # BOOLEAN; `true`, `false`
-  useLargeHeaderDesign: false
+  useLargeHeaderDesign: true
 
   # Should incident history be separated
   # like in an archive view?
@@ -170,7 +170,7 @@ params:
   #
   # Default: `yearly`
   # STRING; `monthly`, `yearly`, `none`
-  incidentHistoryFormat: "yearly"
+  incidentHistoryFormat: "monthly"
 
   # Disable dark mode
   #
@@ -216,8 +216,8 @@ params:
   # Format:
   # customTabs:
   #  -
-  #    name: Name
-  #    link: https://example.com
+  #    name: Home
+  #    link: https://skyfs.net
 
   # Disable complex server-side
   # calculations that may impact
